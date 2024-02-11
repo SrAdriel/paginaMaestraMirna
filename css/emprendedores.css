@@ -1,3 +1,23 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+#intro h1 {
+    text-align: center;
+}
+
+#intro {
+    width: 90%;
+    text-align: justify;
+    margin: 5rem 0rem;
+    background-color: #f3dabf;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
 #caja1 {
     display: flex;
     flex-wrap: wrap;
@@ -7,4 +27,6 @@
 .card {
     width: 27rem;
     margin: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #3d3d3d;
 }
