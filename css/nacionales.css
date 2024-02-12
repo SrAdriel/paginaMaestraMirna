@@ -5,6 +5,19 @@ main  {
     justify-content: center;
 }
 
+#intro {
+    width: 80%;
+    margin: 4rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#intro p {
+    margin-top: 2rem;
+    text-align: justify;
+}
+
 #cajas {
     width: 90%;
 }
@@ -18,7 +31,7 @@ section {
     padding: 2rem;
     margin: 3rem 0rem;
     border-radius: 20px;
-    border: 1px solid #d2d2d2;
+    border: 2px solid #d2d2d2;
 }
 
 .cajaImg {
@@ -36,7 +49,7 @@ ul {
     flex-wrap: wrap;
 }
 
-li {
+main li {
     list-style: none;
     padding: 0.1rem 0.8rem 0rem 0.3rem;
     border-left: 0.5px solid #606060;
@@ -49,4 +62,14 @@ li {
 
 .cajaText p {
     margin-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cajaImg {
+        width: 90%;
+    }
+
+    .cajaText {
+        width: 90%;
+    }
 }
